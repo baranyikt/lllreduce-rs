@@ -1,0 +1,17 @@
+[package]
+name = "lllreduce"
+version = "0.0.1"
+authors = [ "baranyikt" ]
+edition = "2018"
+license = "MIT"
+
+repository = "https://github.com/baranyikt/lllreduce-rs"
+
+description = "A library for running Lenstra-Lenstra-Lovasz (LLL) reduction on lattice bases"
+
+keywords = [ "numeric", "reduction", "LLL", "Lovasz", "lattice" ]
+categories = [ "science", "algorithms", "cryptography" ]
+
+[dependencies]
+
+# none
