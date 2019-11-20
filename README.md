@@ -1,4 +1,4 @@
-# Lenstra-Lenstra-Lovász (LLL) reduction 
+﻿# Lenstra-Lenstra-Lovász (LLL) reduction 
 
 Transforms a lattice's basis into a form in which the first vector of the basis is not "much" longer than the shortest (non-zero) vector of the lattice:
 
@@ -13,10 +13,9 @@ where `n` is the dimension of lattice (assuming `LOVASZ_FACTOR = 4.0/3.0`).
 ```rust
 
 use lllreduce::{
-	Basetype, 
+		Basetype, 
         gram_schmidt_with_coeffs, 
-        lll_reduce
-	};
+        lll_reduce};
 
 fn main() {
 	let original_mtx : std::vec::Vec<std::vec::Vec::<Basetype>> = vec![
